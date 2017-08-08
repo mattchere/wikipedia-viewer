@@ -10,16 +10,43 @@ body {
 }
 
 .search {
-    padding: 30% 0;
+    padding: 30%;
 }
 
 .random {
     margin-bottom: 10px;
 }
+a {
+    color: black;
+    text-decoration: none;
+}
 
+.btn-random:hover {
+    color: grey;
+}
 input {
     font-size: 20px;
     width: 200px;
     padding: 12px 20px;
     margin: 5px 5px;
+}
+.search-header {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    border-bottom: 2px solid black;
+}
+
+/* Search results */
+.res-link:hover {
+    color: grey;
+}
+.res-box {
+    border: 1px solid black;
+    padding: 10px 10px;
+    margin: 10px;
+    text-align: left;
+}
+.res-title {
+    font-size: 30px;
 }
