@@ -46,15 +46,16 @@ input:focus {
 }
 
 /* Search results */
-.res-link:hover {
-    color: grey;
-}
 .res-box {
     padding: 30px 50px;
     margin: 10px;
     text-align: left;
     background-color: white;
     color: #3D5ECC;
+    box-shadow: 5px 5px 10px darkslategray;
+}
+.res-box:hover {
+    background-color: lightgrey;
 }
 .res-title {
     font-size: 30px;
